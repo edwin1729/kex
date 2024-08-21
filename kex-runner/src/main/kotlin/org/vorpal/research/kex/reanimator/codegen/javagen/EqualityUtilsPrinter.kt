@@ -53,7 +53,10 @@ class EqualityUtilsPrinter(
 
     init {
         with(builder) {
-            import("java.util.*;")
+            import ("java.util.Collections")
+            import ("java.util.HashMap")
+            import ("java.util.IdentityHashMap")
+            import ("java.util.Map")
             import("java.lang.reflect.Field")
 
             with(klass) {
